@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a66fe77-f106-455a-a04b-c0e7e2fcc564" name="State_Input" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/StateInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="860ab934-5a01-4a66-847e-fc10eefebbb9" name="State_Input_Multi" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <list id="cf2a06a4-9610-4090-a906-4b9bd36bf7c0" name="Default Changelist" comment="" />
+    <list id="6a66fe77-f106-455a-a04b-c0e7e2fcc564" name="State_Input" comment="">
+      <change afterPath="$PROJECT_DIR$/src/js/StateInputMulti.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,19 +25,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/StateInput.js">
+        <entry file="file://$PROJECT_DIR$/src/js/StateInputMulti.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/BasicButton.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state relative-caret-position="204">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -44,8 +36,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/TextInput.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/StateInput.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -53,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="170">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -68,7 +69,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="State_Input" />
+        <entry key="$PROJECT_DIR$" value="State_Input_Multi" />
       </map>
     </option>
   </component>
@@ -78,8 +79,9 @@
         <option value="$PROJECT_DIR$/src/js/Basic_button.js" />
         <option value="$PROJECT_DIR$/src/js/BasicButton.js" />
         <option value="$PROJECT_DIR$/src/js/TextInput.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/js/StateInput.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/js/StateInputMulti.js" />
       </list>
     </option>
   </component>
@@ -185,23 +187,34 @@
       <workItem from="1566122015126" duration="131000" />
       <workItem from="1566122190228" duration="3040000" />
     </task>
-    <task active="true" id="LOCAL-00003" summary="State_Input">
+    <task id="LOCAL-00003" summary="State_Input">
       <branch name="State_Input" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" />
+      <branch name="State_Input_Multi" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" original="true" />
       <changelist id="6a66fe77-f106-455a-a04b-c0e7e2fcc564" name="State_Input" comment="" />
       <created>1566146687052</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1566146705408</updated>
-      <workItem from="1566146705549" duration="2436000" />
+      <updated>1566150800048</updated>
+      <workItem from="1566146705549" duration="3134000" />
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task active="true" id="LOCAL-00004" summary="State_Input_Multi">
+      <branch name="State_Input_Multi" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" />
+      <changelist id="860ab934-5a01-4a66-847e-fc10eefebbb9" name="State_Input_Multi" comment="" />
+      <created>1566150794682</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566150800077</updated>
+      <workItem from="1566150800892" duration="2529000" />
+    </task>
+    <option name="localTasksCounter" value="5" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8286000" />
+    <option name="totallyTimeSpent" value="11513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -214,19 +227,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="846" height="822" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" sideWeight="0.50214595" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" sideWeight="0.50214595" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32803467" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32803467" />
       <window_info anchor="bottom" id="Terminal" weight="0.32658958" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -282,10 +294,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/BasicButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -294,22 +313,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/TextInput.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/BasicButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        <state relative-caret-position="102">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/StateInput.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="-34">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/StateInputMulti.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
         </state>
       </provider>
     </entry>
