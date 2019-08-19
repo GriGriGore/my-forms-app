@@ -1,7 +1,7 @@
 import React from 'react';
 import isEmail from 'validator/lib/isEmail';
 
-export default class StateInputMulti extends React.Component {
+export default class Validation extends React.Component {
     static displayName = 'multi-input-validation';
     state = {
         fields: {
