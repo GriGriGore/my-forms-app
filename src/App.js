@@ -6,16 +6,18 @@ import StateInput from "./js/StateInput";
 import StateInputMulti from "./js/StateInputMulti";
 import Validation from "./js/Validation";
 import FieldComponentValidation from "./js/FieldComponentValidation";
+import CourseAsyncFetch from "./js/CourseAsyncFetch";
 
 function App() {
     return (
         <div className="App">
-            <FieldComponentValidation/>
+            <CourseAsyncFetch/>
+            {/*<FieldComponentValidation/>
             <Validation/>
             <StateInputMulti/>
             <StateInput/>
             <TextInput/>
-            <BasicButton/>
+            <BasicButton/>*/}
         </div>
     );
 }
