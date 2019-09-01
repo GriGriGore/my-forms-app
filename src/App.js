@@ -7,12 +7,14 @@ import StateInputMulti from "./js/StateInputMulti";
 import Validation from "./js/Validation";
 import FieldComponentValidation from "./js/FieldComponentValidation";
 import CourseAsyncFetch from "./js/CourseAsyncFetch";
+import RemotePersistence from "./js/RemotePersistence";
 
 function App() {
     return (
         <div className="App">
-            <CourseAsyncFetch/>
-            {/*<FieldComponentValidation/>
+            <RemotePersistence/>
+            {/*<CourseAsyncFetch/>
+            <FieldComponentValidation/>
             <Validation/>
             <StateInputMulti/>
             <StateInput/>

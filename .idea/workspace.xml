@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6857761f-6d44-4842-911e-a25f96dc9de1" name="CourseComponent" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/CourseAsyncFetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/CourseSelect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/FieldComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/api/core.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/api/electives.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/RemotePersistence.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/FieldComponentValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/FieldComponentValidation.js" afterDir="false" />
     </list>
     <list id="cf2a06a4-9610-4090-a906-4b9bd36bf7c0" name="Default Changelist" comment="" />
     <list id="238ca185-975d-41a8-9fe8-e44d9480526f" name="Field_Component_Validation" comment="" />
@@ -42,11 +36,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/CourseAsyncFetch.js">
+        <entry file="file://$PROJECT_DIR$/src/js/RemotePersistence.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+            <state>
+              <caret column="80" selection-start-column="80" selection-end-column="80" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
@@ -56,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="170">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -111,10 +106,11 @@
         <option value="$PROJECT_DIR$/src/js/StateInputMulti.js" />
         <option value="$PROJECT_DIR$/src/js/Validation.js" />
         <option value="$PROJECT_DIR$/src/js/CourseSelect.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/js/FieldComponent.js" />
         <option value="$PROJECT_DIR$/src/js/FieldComponentValidation.js" />
         <option value="$PROJECT_DIR$/src/js/CourseAsyncFetch.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/js/RemotePersistence.js" />
       </list>
     </option>
   </component>
@@ -290,7 +286,7 @@
       <option name="project" value="LOCAL" />
       <updated>1566443587697</updated>
       <workItem from="1566443588170" duration="50000" />
-      <workItem from="1567265696680" duration="11183000" />
+      <workItem from="1567265696680" duration="13043000" />
     </task>
     <option name="localTasksCounter" value="8" />
     <option name="createBranch" value="false" />
@@ -298,7 +294,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31625000" />
+    <option name="totallyTimeSpent" value="33485000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -328,7 +324,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32658958" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.31936416" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.31936416" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32658958" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -384,9 +380,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/logo192.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -462,16 +455,6 @@
     <entry file="file://$PROJECT_DIR$/public/img/loading.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/CourseSelect.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1304">
@@ -499,11 +482,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/CourseAsyncFetch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="1258">
           <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
           <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/RemotePersistence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="80" selection-start-column="80" selection-end-column="80" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
