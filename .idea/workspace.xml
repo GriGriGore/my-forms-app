@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6857761f-6d44-4842-911e-a25f96dc9de1" name="CourseComponent" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/RemotePersistence.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/RemotePersistence.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/RemotePersistence.js" afterDir="false" />
     </list>
     <list id="cf2a06a4-9610-4090-a906-4b9bd36bf7c0" name="Default Changelist" comment="" />
     <list id="238ca185-975d-41a8-9fe8-e44d9480526f" name="Field_Component_Validation" comment="" />
@@ -27,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/js/CourseSelect.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1304">
-              <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -38,11 +36,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/RemotePersistence.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="80" selection-start-column="80" selection-end-column="80" />
+            <state relative-caret-position="289">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#151#177#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -73,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/src/js/FieldComponent.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -286,7 +283,7 @@
       <option name="project" value="LOCAL" />
       <updated>1566443587697</updated>
       <workItem from="1566443588170" duration="50000" />
-      <workItem from="1567265696680" duration="13043000" />
+      <workItem from="1567265696680" duration="13706000" />
     </task>
     <option name="localTasksCounter" value="8" />
     <option name="createBranch" value="false" />
@@ -294,7 +291,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33485000" />
+    <option name="totallyTimeSpent" value="34148000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,7 +455,7 @@
     <entry file="file://$PROJECT_DIR$/src/js/CourseSelect.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1304">
-          <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -468,7 +465,7 @@
     <entry file="file://$PROJECT_DIR$/src/js/FieldComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -488,7 +485,7 @@
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -507,11 +504,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/RemotePersistence.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="80" selection-start-column="80" selection-end-column="80" />
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#151#177#0" expanded="true" />
           </folding>
         </state>
       </provider>
