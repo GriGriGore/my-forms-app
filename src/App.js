@@ -8,12 +8,15 @@ import Validation from "./js/Validation";
 import FieldComponentValidation from "./js/FieldComponentValidation";
 import CourseAsyncFetch from "./js/CourseAsyncFetch";
 import RemotePersistence from "./js/RemotePersistence";
+import ReduxApp from "./js/api/ReduxApp";
 
 function App() {
     return (
         <div className="App">
+            <ReduxApp/>
+            {/*
             <RemotePersistence/>
-            {/*<CourseAsyncFetch/>
+            <CourseAsyncFetch/>
             <FieldComponentValidation/>
             <Validation/>
             <StateInputMulti/>

@@ -3,11 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "eslint": "^6.3.0",
     "eslint-utils": "1.4.2",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "react-script": "^2.0.5",
     "react-scripts": "3.1.1",
+    "react-thunk": "^1.0.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "typescript-eslint": "^0.0.1-alpha.0",
     "validator": "^11.1.0"
   },
   "scripts": {
@@ -15,9 +22,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [

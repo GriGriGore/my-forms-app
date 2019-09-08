@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6857761f-6d44-4842-911e-a25f96dc9de1" name="CourseComponent" comment="">
+    <list default="true" id="ff338215-d203-4c7e-8eb5-171c7fef9064" name="Redux" comment="">
+      <change afterPath="$PROJECT_DIR$/src/js/api/ReduxActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/api/ReduxApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/api/ReduxForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/api/ReduxReducers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/RemotePersistence.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/RemotePersistence.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <list id="cf2a06a4-9610-4090-a906-4b9bd36bf7c0" name="Default Changelist" comment="" />
-    <list id="238ca185-975d-41a8-9fe8-e44d9480526f" name="Field_Component_Validation" comment="" />
-    <list id="6a66fe77-f106-455a-a04b-c0e7e2fcc564" name="State_Input" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +26,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/RemotePersistence.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/api/ReduxActions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="145" column="50" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="50" />
+            <state relative-caret-position="221">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
               <folding>
-                <element signature="e#82#108#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/api/ReduxReducers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="639">
+              <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#38#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/api/ReduxForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/FieldComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/api/ReduxApp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-160">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,13 +104,15 @@
     <findStrings>
       <find>isEmail</find>
       <find>_saveStatus</find>
+      <find>localStorage</find>
+      <find>loadPeople</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Course_Component" />
+        <entry key="$PROJECT_DIR$" value="Redux" />
       </map>
     </option>
   </component>
@@ -65,8 +129,13 @@
         <option value="$PROJECT_DIR$/src/js/FieldComponent.js" />
         <option value="$PROJECT_DIR$/src/js/FieldComponentValidation.js" />
         <option value="$PROJECT_DIR$/src/js/CourseAsyncFetch.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/js/RemotePersistence.js" />
+        <option value="$PROJECT_DIR$/src/js/api/ReduxReducers.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/js/api/ReduxApp.js" />
+        <option value="$PROJECT_DIR$/src/js/api/ReduxActions.js" />
+        <option value="$PROJECT_DIR$/src/js/api/ReduxForm.js" />
       </list>
     </option>
   </component>
@@ -82,23 +151,13 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="forms-app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="forms-app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="forms-app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="forms-app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="forms-app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="forms-app" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="forms-app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -122,7 +181,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -130,10 +188,13 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js/api" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -145,6 +206,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app\src\js\api" />
       <recent name="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app\src\js" />
       <recent name="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app\public" />
       <recent name="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app\src" />
@@ -171,86 +233,33 @@
   <component name="TaskManager">
     <task id="Default" summary="Default task">
       <branch name="master" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" />
+      <branch name="Redux" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" original="true" />
       <changelist id="cf2a06a4-9610-4090-a906-4b9bd36bf7c0" name="Default Changelist" comment="" />
       <created>1566119068616</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566122188397</updated>
+      <updated>1567362392887</updated>
       <workItem from="1566119069951" duration="571000" />
       <workItem from="1566122146237" duration="42000" />
+      <workItem from="1567362089105" duration="304000" />
     </task>
-    <task id="LOCAL-00002" summary="Text_Input">
-      <branch name="master" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" original="true" />
-      <branch name="Text_Input" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" />
-      <branch name="State_Input" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" original="true" />
-      <created>1566122010322</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task active="true" id="LOCAL-00008" summary="Redux">
+      <branch name="Redux" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" />
+      <changelist id="ff338215-d203-4c7e-8eb5-171c7fef9064" name="Redux" comment="" />
+      <created>1567362381331</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1566146705390</updated>
-      <workItem from="1566122015126" duration="131000" />
-      <workItem from="1566122190228" duration="3040000" />
+      <updated>1567362392891</updated>
+      <workItem from="1567362393437" duration="17570000" />
     </task>
-    <task id="LOCAL-00003" summary="State_Input">
-      <branch name="State_Input" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" />
-      <branch name="State_Input_Multi" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" original="true" />
-      <changelist id="6a66fe77-f106-455a-a04b-c0e7e2fcc564" name="State_Input" comment="" />
-      <created>1566146687052</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1566150800048</updated>
-      <workItem from="1566146705549" duration="3134000" />
-    </task>
-    <task id="LOCAL-00004" summary="State_Input_Multi">
-      <branch name="State_Input_Multi" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" />
-      <branch name="Validation" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" original="true" />
-      <created>1566150794682</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1566237471030</updated>
-      <workItem from="1566150800892" duration="2950000" />
-    </task>
-    <task id="LOCAL-00005" summary="Validation">
-      <branch name="Validation" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" />
-      <branch name="Field_Component_Validation" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" original="true" />
-      <created>1566237462916</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1566242194079</updated>
-      <workItem from="1566237471193" duration="3470000" />
-    </task>
-    <task id="LOCAL-00006" summary="Field_Component_Validation">
-      <branch name="Field_Component_Validation" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" />
-      <branch name="Course_Component" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" original="true" />
-      <changelist id="238ca185-975d-41a8-9fe8-e44d9480526f" name="Field_Component_Validation" comment="" />
-      <created>1566242189276</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1566443587625</updated>
-      <workItem from="1566242194172" duration="4988000" />
-    </task>
-    <task active="true" id="LOCAL-00007" summary="CourseComponent">
-      <branch name="Course_Component" repository="D:\WORKSPACE\IntelliJ\fullstack-react\forms-app" />
-      <changelist id="6857761f-6d44-4842-911e-a25f96dc9de1" name="CourseComponent" comment="" />
-      <created>1566443574755</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1566443587697</updated>
-      <workItem from="1566443588170" duration="50000" />
-      <workItem from="1567265696680" duration="19453000" />
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="9" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39895000" />
+    <option name="totallyTimeSpent" value="58009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,16 +283,16 @@
       <window_info id="Favorites" order="6" sideWeight="0.50214595" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32658958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32658958" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.31936416" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49873096" weight="0.31936416" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32658958" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32658958" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50126904" side_tool="true" weight="0.31936416" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -329,6 +338,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/logo512.png">
@@ -398,16 +411,6 @@
     <entry file="file://$PROJECT_DIR$/src/js/api/core.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/Validation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/img/loading.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -415,16 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1304">
           <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/FieldComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -451,22 +444,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/js/Validation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/RemotePersistence.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="145" column="50" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="50" />
+        <state relative-caret-position="119">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding>
             <element signature="e#82#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/api/ReduxApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/api/ReduxReducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#38#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/FieldComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/api/ReduxActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/api/ReduxForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
